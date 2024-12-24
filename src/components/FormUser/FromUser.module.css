@@ -1,0 +1,85 @@
+.form {
+  padding: 2rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.formGroup label {
+  color: #003876;
+  font-size: 0.9rem;
+}
+
+.formGroup input,
+.formGroup select,
+.textareaGroup textarea {
+  padding: 0.75rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.375rem;
+  background-color: #f8fafc;
+}
+
+.textareaGroup {
+  margin-bottom: 2rem;
+}
+
+.textareaGroup label {
+  color: #003876;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.textareaGroup textarea {
+  width: 100%;
+  min-height: 120px;
+  resize: vertical;
+}
+
+.switchGroup {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.switch {
+  position: relative;
+  width: 48px;
+  height: 24px;
+  background-color: #e2e8f0;
+  border-radius: 24px;
+  padding: 2px;
+  cursor: pointer;
+  border: none;
+}
+
+.switch.active {
+  background-color: var(--dark-blue);
+}
+
+.slider {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  transition: transform 0.2s;
+  top: 2px;
+  left: 2px;
+}
+
+.switch.active .slider {
+  transform: translateX(24px);
+}

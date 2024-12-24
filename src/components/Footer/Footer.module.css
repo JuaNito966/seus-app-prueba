@@ -1,0 +1,29 @@
+.footercontentImage {
+    background-color: #EFEFEF;
+    width: 100%;
+    height: 84px;
+
+    background-repeat: repeat-x;
+    background-position: top;
+    background-size: 100% 100%;
+    
+    background-position: center;
+}
+
+.footercontentInfo {
+    background-color: #023D6A;
+    width: 100%;
+    height: 60px;
+    padding: 0 10%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: var(--white);
+}
+
+.footercontentInfoLinks {
+    display: flex;
+    gap: 20px;
+}

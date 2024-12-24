@@ -1,0 +1,45 @@
+/* Start section */
+.page {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  height: 338px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bar {
+  width: Fixed (1, 512px)px;
+  height: Fixed (3920px)px;
+  padding: 36px 196px 36px 196px;
+  gap: 10px;
+  border-radius: 0px 0px 20px 20px;
+
+  background: linear-gradient(112.76deg, #761D74 0.53%, #0DC6DE 100%);
+}
+
+.background {
+  width: 1512px;
+  height: 338px;
+}
+
+.logo {
+  width: Fixed (1, 512px)px;
+  height: Fixed (3920px)px;
+}
+/* Start section */
+
+
+
+/* Profile Section */
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+

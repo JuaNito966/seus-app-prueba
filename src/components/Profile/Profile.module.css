@@ -1,0 +1,76 @@
+.profileSection {
+    padding-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    width: 80%;
+  }
+  
+  .ImageSection {
+    margin-inline: 20px;
+  }
+  
+  .profileImage {
+    margin-top: -200px;
+    cursor: pointer;
+  }
+  
+  .contentUserInfo {
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+    max-width: 832px;
+  }
+  
+  .welcomeSection {
+    margin-bottom: 1.5rem;
+  }
+  
+  .welcomeTitle {
+    font-size: 24px;
+    font-weight: 500px;
+    color: var(--dark-blue);
+  }
+  
+  .userName {
+    font-size: 34px;
+    font-weight: 700px;
+    color: var(--dark-blue);
+  }
+  
+  .infoSection {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  
+    max-width: 832px;
+  }
+  
+  .infoItem {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .infoItem label {
+    color: #4b5563;
+    margin-bottom: 10px;
+  }
+  
+  .infoItem p {
+    color: #1e3a8a;
+  }
+  
+  .changePasswordButton {
+    width: 145px;
+    height: 32px;
+  
+    border-radius: 50px;
+    border: none;
+  
+    background-color: #D5B9D4;
+  
+    align-self: flex-end;
+    margin-top: 10px;
+  
+    cursor: pointer;
+  }
